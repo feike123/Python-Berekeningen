@@ -3,6 +3,7 @@ import math
 import rechthoek
 import cirkel
 import driehoek
+import rechthoekige_driehoek
 
 choice = input("kies je figuur ")
 
@@ -22,3 +23,8 @@ if choice == str("3"):
     x = input("basis ")
     y = input("hoogte ")
     driehoek.berekening(x, y)
+
+if choice == str("4"):
+    x = input("zijde a ")
+    y = input("zijde c ")
+    rechthoekige_driehoek.berekening(x, y)
